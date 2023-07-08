@@ -1,0 +1,107 @@
+.header{
+    background-color: rgb(173, 150, 196);
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+}
+.container{
+    overflow: hidden;
+    
+
+}
+.blog{
+    background-color: rgb(95, 179, 179);
+    width: 49%;
+    height:115px;
+    float: left;
+
+}
+.contact{
+    background-color: rgb(195, 167, 141);
+    width: 50%;
+    height:115px;
+    float: right;
+}
+.footer{
+    background-color: rgb(56, 232, 47);
+        height:115px;
+}
+.dodgerBlue{
+    background-color: DodgerBlue;
+    float:left;
+    width: 33.33%;
+    height: 200px;
+    border: 1px solid rgb(248, 6, 6);
+    box-sizing: border-box;
+}
+.SlateBlue{
+    background-color: SlateBlue;
+    float:left;
+    width: 33.33%;
+    height: 200px;
+    border: 1px solid rgb(244, 5, 5);
+    box-sizing: border-box;
+}
+.Violet{
+    background-color: Violet;
+    float:left;
+    width: 33.33%;
+    height: 200px;
+    border: 1px solid rgb(242, 5, 5);
+    box-sizing: border-box;
+}
+
+.input[type=checkbox] {
+    accent-color: rgb(221, 67, 20);
+  }
+.main{
+  font-size: small;
+  width: 100%;
+  height: 120px;
+  border: 1px solid #d21313;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+.checkbox{
+    background-color: rgb(242, 12, 242);
+    float:left;
+    width: 33.30%;
+    height: 90px;
+    border: 1px solid rgb(242, 5, 5);
+    box-sizing: border-box;
+
+}
+
+.radio{
+    background-color: rgb(6, 10, 247);
+    float:left;
+    width: 33.30%;
+    height: 90px;
+    border: 1px solid rgb(242, 5, 5);
+    box-sizing: border-box;
+}
+
+.volume{
+    background-color: rgb(12, 240, 88);
+    float:left;
+    width: 33.30%;
+    height: 90px;
+    border: 1px solid rgb(12, 21, 191);
+    box-sizing: border-box;
+}
+.ani{
+    background-color: tomato;
+    width: 80px;
+    height: 20px;
+    position: relative;
+    animation: mymove 5s infinite;
+    text-align: center;
+    display: inline-block;
+}
+@keyframes mymove {
+    from {left: 20%;}
+    to {left: 80%;}
+  }
+ 
